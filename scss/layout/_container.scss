@@ -47,84 +47,84 @@
   }
 }
 
-.theme.col-1 {
-  background-color: #927bc1;
+.theme .col-1 {
+  background-color: $color-info;
   @media (min-width: $break-md) {
     flex-basis: 8.33%;
   }
 }
 
-.theme.col-2 {
-  background-color: #fd7856;
+.theme .col-2 {
+  background-color: $color-warning;
   @media (min-width: $break-md) {
     flex-basis: 16.67%;
   }
 }
 
-.theme.col-3 {
+.theme .col-3 {
   background-color: #deb2ee;
   @media (min-width: $break-md) {
     flex-basis: 25.00%;
   }
 }
 
-.theme.col-4 {
-  background-color: #7ee6fd;
+.theme .col-4 {
+  background-color: $color-secondary-light;
   @media (min-width: $break-md) {
     flex-basis: 33.33%;
   }
 }
 
-.theme.col-5 {
-  background-color: #88d9a0;
+.theme .col-5 {
+  background-color: $color-success-light;
   @media (min-width: $break-md) {
     flex-basis: 41.67%;
   }
 }
 
-.theme.col-6 {
+.theme .col-6 {
   background-color: #4da2bb;
   @media (min-width: $break-md) {
     flex-basis: 50.00%;
   }
 }
 
-.theme.col-7 {
-  background-color: #ec9fa3;
+.theme .col-7 {
+  background-color: $color-error-light;
   @media (min-width: $break-md) {
     flex-basis: 58.33%;
   }
 }
 
-.theme.col-8 {
-  background-color: #fd9f85;
+.col-8 {
+  background-color: $color-warning-light;
   @media (min-width: $break-md) {
     flex-basis: 66.67%;
   }
 }
 
-.theme.col-9 {
-  background-color: #e4757a;
+.theme .col-9 {
+  background-color: $color-error;
   @media (min-width: $break-md) {
     flex-basis: 75.00%;
   }
 }
 
-.theme.col-10 {
-  background-color: #63cc82;
+.theme .col-10 {
+  background-color: $color-success;
   @media (min-width: $break-md) {
     flex-basis: 83.33%;
   }
 }
 
-.theme.col-11 {
-  background-color: #51ddfc;
+.theme .col-11 {
+  background-color: $color-secondary;
   @media (min-width: $break-md) {
     flex-basis: 91.67%;
   }
 }
 
-.theme.col-12 {
+.theme .col-12 {
   background-color: #80e8d1;
   @media (min-width: $break-md) {
     flex-basis: 100.00%;

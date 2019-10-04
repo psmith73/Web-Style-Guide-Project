@@ -21,22 +21,37 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $color-secondary;
+  &:hover {
+    background-color: $color-secondary-light;
+  }
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $color-error;
+  &:hover {
+    background-color: $color-error-light;
+  }
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $color-info;
+  &:hover {
+    background-color: $color-info-light;
+  }
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $color-success;
+  &:hover {
+    background-color: $color-success-light;
+  }
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $color-warning;
+  &:hover {
+    background-color: $color-warning-light;
+  }
 }
   
