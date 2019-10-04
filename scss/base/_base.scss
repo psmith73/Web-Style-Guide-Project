@@ -3,17 +3,15 @@
 /* ============================================= */
 
 * {
-    font-family: $font-family-primary;
-    color: #777;
-    box-sizing: border-box;
-  }
-  
-  p {
-    line-height: 1.45em;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  
+  font-family: $font-family-primary;
+  color: $color-text;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
