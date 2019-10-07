@@ -20,9 +20,4 @@ $color-warning-light: lighten($color-warning, 15%);
 $font-family-primary: 'Lato', sans-serif;
 
 // Breakpoint
-$breakpoints: (
-  'xs': 575px, 
-  'sm': 576px,
- 'med': 768px,
-  'lg': 992px,  
-);
+$break: 768px;

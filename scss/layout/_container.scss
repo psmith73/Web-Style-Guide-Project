@@ -4,7 +4,7 @@
 
 .container {
   padding: 0 10px;
-  @include mq('med') {
+  @include md {
     max-width: 1400px;
     display: block;
     margin-left: auto;
@@ -14,7 +14,7 @@
 }
 
 .centered {
-  @include mq('med') {
+  @include md {
     @include center;
   }
 }
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
-  @include mq('med') {
+  @include md {
     flex-direction: row;
   }
 }
@@ -34,14 +34,14 @@
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
-  @include mq('med') {
+  @include md {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
   & + [class^=col] {
-    @include mq('med') {
+    @include md {
       margin-left: 10px;
     }
   }
@@ -49,7 +49,7 @@
 
 .row {
   & .col-1 {
-    @include mq('med') {
+    @include md {
       flex-basis: 8.33%;
     }
   }
@@ -60,7 +60,7 @@
 
 .row {
   & .col-2 {
-    @include mq('med') {
+    @include md {
       flex-basis: 16.67%;
     }
   }
@@ -71,7 +71,7 @@
 
 .row {
   & .col-3 {
-    @include mq('med') {
+    @include md {
       flex-basis: 25.00%;
     }
   }
@@ -82,7 +82,7 @@
 
 .row {
   & .col-4 {
-    @include mq('med') {
+    @include md {
       flex-basis: 33.33%;
     }
   }
@@ -93,7 +93,7 @@
 
 .row {
   & .col-5 {
-    @include mq('med') {
+    @include md {
       flex-basis: 41.67%;
     }
   }
@@ -104,7 +104,7 @@
 
 .row {
   & .col-6 {
-    @include mq('med') {
+    @include md {
       flex-basis: 50.00%;
     }
   }
@@ -115,7 +115,7 @@
 
 .row {
   & .col-7 {
-    @include mq('med') {
+    @include md {
       flex-basis: 58.33%;
     }
   }
@@ -126,7 +126,7 @@
 
 .row {
   & .col-8 {
-    @include mq('med') {
+    @include md {
       flex-basis: 66.67%;
     }
   }
@@ -139,7 +139,7 @@
 
 .row {
   & .col-9 {
-    @include mq('med') {
+    @include md {
       flex-basis: 75.00%;
     }
   }
@@ -150,7 +150,7 @@
 
 .row {
   & .col-10 {
-    @include mq('med') {
+    @include md {
       flex-basis: 83.33%;
     }
   }
@@ -161,7 +161,7 @@
 
 .row {
   & .col-11 {
-    @include mq('med') {
+    @include md {
       flex-basis: 91.67%;
     }
   }
@@ -172,7 +172,7 @@
 
 .row {
   & .col-12 {
-    @include mq('med') {
+    @include md {
       flex-basis: 100.00%;
     }
   }

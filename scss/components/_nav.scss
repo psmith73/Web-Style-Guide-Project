@@ -7,7 +7,7 @@
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
-  @include mq('med') {
+  @include md {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
@@ -19,9 +19,9 @@
     display: block;
     width: 100%;
     transition: 
-      background-color .2s ease-in-out, 
-      color .2s ease-in-out;
-      @include mq('med') {
+    background-color .2s ease-in-out, 
+    color .2s ease-in-out;
+    @include md {
       flex-basis: 100px;
     }
   }
