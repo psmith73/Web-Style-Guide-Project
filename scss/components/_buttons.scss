@@ -10,11 +10,11 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  @media (min-width: $break-md) {
+  @include mq('med') {
     padding: 10px 30px;
   }
   & + .btn {
-    @media (min-width: $break-md) {
+    @include mq('med') {
       margin-left: 10px;
     }
   }
@@ -22,6 +22,7 @@
 
 .default {
   background-color: $color-secondary;
+  transition: background-color .5s ease-in-out;
   &:hover {
     background-color: $color-secondary-light;
   }
@@ -29,6 +30,7 @@
 
 .error {
   background-color: $color-error;
+  transition: background-color .5s ease-in-out;
   &:hover {
     background-color: $color-error-light;
   }
@@ -36,6 +38,7 @@
 
 .info {
   background-color: $color-info;
+  transition: background-color .5s ease-in-out;
   &:hover {
     background-color: $color-info-light;
   }
@@ -43,6 +46,7 @@
 
 .success {
   background-color: $color-success;
+  transition: background-color .5s ease-in-out;
   &:hover {
     background-color: $color-success-light;
   }
@@ -50,6 +54,7 @@
 
 .warning {
   background-color: $color-warning;
+  transition: background-color .5s ease-in-out;
   &:hover {
     background-color: $color-warning-light;
   }

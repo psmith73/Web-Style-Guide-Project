@@ -375,18 +375,11 @@ template {
 /*              Base styles                      */
 /* ============================================= */
 /* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_base.scss */
-* {
-  font-family: "Lato", sans-serif;
-  color: #777;
-  box-sizing: border-box;
-}
-
-/* line 11, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_base.scss */
 p {
   line-height: 1.45em;
 }
 
-/* line 15, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_base.scss */
+/* line 9, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_base.scss */
 a {
   text-decoration: none;
 }
@@ -458,151 +451,151 @@ a {
   }
 }
 
-/* line 50, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-1 {
-  background-color: #927bc1;
-}
-
 @media (min-width: 768px) {
-  /* line 50, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-1 {
+  /* line 51, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-1 {
     flex-basis: 8.33%;
   }
 }
 
-/* line 57, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-2 {
-  background-color: #fd7856;
+/* line 56, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-1 {
+  background-color: #927bc1;
 }
 
 @media (min-width: 768px) {
-  /* line 57, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-2 {
+  /* line 62, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-2 {
     flex-basis: 16.67%;
   }
 }
 
-/* line 64, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-3 {
-  background-color: #deb2ee;
+/* line 67, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-2 {
+  background-color: #fd7856;
 }
 
 @media (min-width: 768px) {
-  /* line 64, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-3 {
+  /* line 73, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-3 {
     flex-basis: 25.00%;
   }
 }
 
-/* line 71, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-4 {
-  background-color: #79e5fd;
+/* line 78, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-3 {
+  background-color: #deb2ee;
 }
 
 @media (min-width: 768px) {
-  /* line 71, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-4 {
+  /* line 84, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-4 {
     flex-basis: 33.33%;
   }
 }
 
-/* line 78, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-5 {
-  background-color: #82d69b;
+/* line 89, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-4 {
+  background-color: #9cecfd;
 }
 
 @media (min-width: 768px) {
-  /* line 78, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-5 {
+  /* line 95, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-5 {
     flex-basis: 41.67%;
   }
 }
 
-/* line 85, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-6 {
-  background-color: #4da2bb;
-}
-
-@media (min-width: 768px) {
-  /* line 85, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-6 {
-    flex-basis: 50.00%;
-  }
-}
-
-/* line 92, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-7 {
-  background-color: #eb979b;
-}
-
-@media (min-width: 768px) {
-  /* line 92, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-7 {
-    flex-basis: 58.33%;
-  }
-}
-
-/* line 99, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.col-8 {
-  background-color: #fd987e;
-}
-
-@media (min-width: 768px) {
-  /* line 99, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .col-8 {
-    flex-basis: 66.67%;
-  }
-}
-
-/* line 106, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-9 {
-  background-color: #e4757a;
+/* line 100, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-5 {
+  background-color: #9ddfb0;
 }
 
 @media (min-width: 768px) {
   /* line 106, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-9 {
+  .row .col-6 {
+    flex-basis: 50.00%;
+  }
+}
+
+/* line 111, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-6 {
+  background-color: #4da2bb;
+}
+
+@media (min-width: 768px) {
+  /* line 117, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-7 {
+    flex-basis: 58.33%;
+  }
+}
+
+/* line 122, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-7 {
+  background-color: #f1b5b8;
+}
+
+@media (min-width: 768px) {
+  /* line 128, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-8 {
+    flex-basis: 66.67%;
+  }
+}
+
+/* line 133, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-8 {
+  background-color: #feb4a2;
+}
+
+@media (min-width: 768px) {
+  /* line 141, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-9 {
     flex-basis: 75.00%;
   }
 }
 
-/* line 113, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-10 {
-  background-color: #63cc82;
+/* line 146, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-9 {
+  background-color: #e4757a;
 }
 
 @media (min-width: 768px) {
-  /* line 113, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-10 {
+  /* line 152, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-10 {
     flex-basis: 83.33%;
   }
 }
 
-/* line 120, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-11 {
-  background-color: #51ddfc;
+/* line 157, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-10 {
+  background-color: #63cc82;
 }
 
 @media (min-width: 768px) {
-  /* line 120, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-11 {
+  /* line 163, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-11 {
     flex-basis: 91.67%;
   }
 }
 
-/* line 127, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-.theme .col-12 {
-  background-color: #80e8d1;
+/* line 168, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-11 {
+  background-color: #51ddfc;
 }
 
 @media (min-width: 768px) {
-  /* line 127, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
-  .theme .col-12 {
+  /* line 174, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-12 {
     flex-basis: 100.00%;
   }
 }
 
-/* line 134, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+/* line 179, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 184, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
 .card {
   flex-basis: 100%;
 }
@@ -638,51 +631,56 @@ a {
 /* line 23, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
+  transition: background-color .5s ease-in-out;
 }
 
-/* line 25, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+/* line 26, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
 .default:hover {
-  background-color: #79e5fd;
+  background-color: #9cecfd;
 }
 
-/* line 30, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+/* line 31, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
+  transition: background-color .5s ease-in-out;
 }
 
-/* line 32, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+/* line 34, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
 .error:hover {
-  background-color: #eb979b;
-}
-
-/* line 37, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
-.info {
-  background-color: #927bc1;
+  background-color: #f1b5b8;
 }
 
 /* line 39, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
-.info:hover {
-  background-color: #a997ce;
+.info {
+  background-color: #927bc1;
+  transition: background-color .5s ease-in-out;
 }
 
-/* line 44, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+/* line 42, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 47, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
+  transition: background-color .5s ease-in-out;
 }
 
-/* line 46, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+/* line 50, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
 .success:hover {
-  background-color: #82d69b;
+  background-color: #9ddfb0;
 }
 
-/* line 51, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+/* line 55, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+  transition: background-color .5s ease-in-out;
 }
 
-/* line 53, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+/* line 58, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
 .warning:hover {
-  background-color: #fd987e;
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
@@ -764,8 +762,8 @@ a {
   }
 }
 
-/* line 17, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
-.nav-link {
+/* line 15, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
+.nav .nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
@@ -775,14 +773,14 @@ a {
 }
 
 @media (min-width: 768px) {
-  /* line 17, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
-  .nav-link {
+  /* line 15, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
+  .nav .nav-link {
     flex-basis: 100px;
   }
 }
 
-/* line 31, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
-.nav-link:hover {
+/* line 28, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
+.nav .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
@@ -791,24 +789,31 @@ a {
 /*              Typography                       */
 /* ============================================= */
 /* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
+* {
+  font-family: "Lato", sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* line 11, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
 }
 
-/* line 10, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
+/* line 16, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #777;
 }
 
-/* line 15, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
+/* line 21, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
-/* line 20, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
+/* line 26, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;

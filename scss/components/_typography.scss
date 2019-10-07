@@ -2,6 +2,12 @@
 /*              Typography                       */
 /* ============================================= */
 
+* {
+  font-family: $font-family-primary;
+  color: $color-text;
+  box-sizing: border-box;
+}
+
 .headline-primary {
   color: $color-primary;
   margin-left: 10px;
@@ -27,3 +33,5 @@
   border-radius: 5px;
 }
   
+
+

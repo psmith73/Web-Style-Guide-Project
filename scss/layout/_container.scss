@@ -4,7 +4,7 @@
 
 .container {
   padding: 0 10px;
-  @media (min-width: $break-md){
+  @include mq('med') {
     max-width: 1400px;
     display: block;
     margin-left: auto;
@@ -14,7 +14,7 @@
 }
 
 .centered {
-  @media (min-width: $break-md) {
+  @include mq('med') {
     @include center;
   }
 }
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
-  @media (min-width: $break-md) {
+  @include mq('med') {
     flex-direction: row;
   }
 }
@@ -34,100 +34,150 @@
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
-  @media (min-width: $break-md) {
+  @include mq('med') {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
   & + [class^=col] {
-      @media (min-width: $break-md) {
+    @include mq('med') {
       margin-left: 10px;
     }
   }
 }
 
-.theme .col-1 {
-  background-color: $color-info;
-  @media (min-width: $break-md) {
-    flex-basis: 8.33%;
+.row {
+  & .col-1 {
+    @include mq('med') {
+      flex-basis: 8.33%;
+    }
+  }
+  & .theme.col-1 {
+    background-color: $color-info;
   }
 }
 
-.theme .col-2 {
-  background-color: $color-warning;
-  @media (min-width: $break-md) {
-    flex-basis: 16.67%;
+.row {
+  & .col-2 {
+    @include mq('med') {
+      flex-basis: 16.67%;
+    }
+  }
+  & .theme.col-2 {
+    background-color: $color-warning;
   }
 }
 
-.theme .col-3 {
-  background-color: #deb2ee;
-  @media (min-width: $break-md) {
-    flex-basis: 25.00%;
+.row {
+  & .col-3 {
+    @include mq('med') {
+      flex-basis: 25.00%;
+    }
+  }
+  & .theme.col-3 {
+    background-color: #deb2ee;
   }
 }
 
-.theme .col-4 {
-  background-color: $color-secondary-light;
-  @media (min-width: $break-md) {
-    flex-basis: 33.33%;
+.row {
+  & .col-4 {
+    @include mq('med') {
+      flex-basis: 33.33%;
+    }
+  }
+  & .theme.col-4 {
+    background-color: $color-secondary-light;
   }
 }
 
-.theme .col-5 {
-  background-color: $color-success-light;
-  @media (min-width: $break-md) {
-    flex-basis: 41.67%;
+.row {
+  & .col-5 {
+    @include mq('med') {
+      flex-basis: 41.67%;
+    }
+  }
+  & .theme.col-5 {
+    background-color: $color-success-light;
   }
 }
 
-.theme .col-6 {
-  background-color: #4da2bb;
-  @media (min-width: $break-md) {
-    flex-basis: 50.00%;
+.row {
+  & .col-6 {
+    @include mq('med') {
+      flex-basis: 50.00%;
+    }
+  }
+  & .theme.col-6 {
+    background-color: #4da2bb;
   }
 }
 
-.theme .col-7 {
-  background-color: $color-error-light;
-  @media (min-width: $break-md) {
-    flex-basis: 58.33%;
+.row {
+  & .col-7 {
+    @include mq('med') {
+      flex-basis: 58.33%;
+    }
+  }
+  & .theme.col-7 {
+    background-color: $color-error-light;
   }
 }
 
-.col-8 {
-  background-color: $color-warning-light;
-  @media (min-width: $break-md) {
-    flex-basis: 66.67%;
+.row {
+  & .col-8 {
+    @include mq('med') {
+      flex-basis: 66.67%;
+    }
+  }
+  & .theme.col-8 {
+    background-color: $color-warning-light;
+    
   }
 }
 
-.theme .col-9 {
-  background-color: $color-error;
-  @media (min-width: $break-md) {
-    flex-basis: 75.00%;
+
+.row {
+  & .col-9 {
+    @include mq('med') {
+      flex-basis: 75.00%;
+    }
+  }
+  & .theme.col-9 {
+    background-color: $color-error;
   }
 }
 
-.theme .col-10 {
-  background-color: $color-success;
-  @media (min-width: $break-md) {
-    flex-basis: 83.33%;
+.row {
+  & .col-10 {
+    @include mq('med') {
+      flex-basis: 83.33%;
+    }
+  }
+  & .theme.col-10 {
+    background-color: $color-success;
   }
 }
 
-.theme .col-11 {
-  background-color: $color-secondary;
-  @media (min-width: $break-md) {
-    flex-basis: 91.67%;
+.row {
+  & .col-11 {
+    @include mq('med') {
+      flex-basis: 91.67%;
+    }
+  }
+  & .theme.col-11 {
+    background-color: $color-secondary;
   }
 }
 
-.theme .col-12 {
-  background-color: #80e8d1;
-  @media (min-width: $break-md) {
-    flex-basis: 100.00%;
+.row {
+  & .col-12 {
+    @include mq('med') {
+      flex-basis: 100.00%;
+    }
+  }
+  & .theme.col-12 {
+    background-color: #80e8d1;
   }
 }
 
